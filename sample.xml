@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<catalog>
+    <book id="bk101">
+        <author>Gambardella, Matthew</author>
+        <title>XML Developer's Guide</title>
+        <genre>Computer</genre>
+        <price>44.95</price>
+        <publish_date>2000-10-01</publish_date>
+        <description>applicationswith XML.</description>
+        <multi id="m1">
+            <thread id="th1">
+                <tag id="tag1">aaa</tag>
+                <tag id="tag2">bbb</tag>
+                <tag id="tag3">
+                    <mago_tag1>
+                        孫1
+                    </mago_tag1>
+                    <mago_tag2>
+                        孫2
+                    </mago_tag2>
+                    <mago_tag3>
+                        孫3
+                    </mago_tag3>
+                </tag>
+            </thread>
+            <thread id="th2">
+                <tag id="tag2-1">aaa</tag>
+            </thread>
+        </multi>
+    </book>
+</catalog>
